@@ -1227,7 +1227,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: c331182fc3ee21b4891c2e23e488b666, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1499,8 +1499,8 @@ Transform:
   m_GameObject: {fileID: 629128638}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0156, y: 1.088, z: 1.04}
-  m_LocalScale: {x: 0.77164376, y: 1.17504, z: 1}
+  m_LocalPosition: {x: 0.0001, y: 1.1475, z: 0.572}
+  m_LocalScale: {x: 0.82532024, y: 1.2940804, z: 0.064}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2849,7 +2849,7 @@ RectTransform:
   - {fileID: 1865850933}
   - {fileID: 769618023}
   - {fileID: 1794342513}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1889038591}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4116,7 +4116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1889038591}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4139,6 +4139,7 @@ Transform:
   - {fileID: 832575519}
   - {fileID: 1354875912}
   - {fileID: 1851046504}
+  - {fileID: 1047416998}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1914988010
@@ -4522,7 +4523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5768705651477734357, guid: 7605c5e37581fe54d8e90bd65fb1116d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.003
       objectReference: {fileID: 0}
     - target: {fileID: 5768705651477734357, guid: 7605c5e37581fe54d8e90bd65fb1116d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4582,6 +4583,5 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1889038591}
-  - {fileID: 1047416998}
   - {fileID: 910513491008494649}
   - {fileID: 629128644}
